@@ -1,0 +1,142 @@
+.w {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: pink;
+}
+
+.container {
+  height: 5740px;
+}
+
+.listL .current {
+  background-color: #169af3;
+}
+
+.listL .current a {
+  color: #fff;
+}
+
+.listL {
+  width: 210px;
+  height: 235px;
+  padding-top: 10px;
+}
+.listL li {
+  width: 100%;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  margin-bottom: 18px;
+}
+.listL li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #555;
+}
+
+.listL li a:hover {
+  background-color: #169af3;
+  color: #fff;
+}
+
+.listR {
+  width: 650px;
+  height: 106px;
+  padding: 0 0 0 20px;
+}
+
+.listR li {
+  width: 770px;
+  height: 124px;
+  margin: 16px 0;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.listRPic {
+  width: 112px;
+  height: 123px;
+  margin: 0 5px 0 0;
+  padding: 4px 0 0 4px;
+}
+
+.listRPic img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+}
+
+.listRDetail .top {
+  width: 650px;
+  height: 25px;
+}
+
+.listRDetail .listRDetailTitle a {
+  font-size: 14px;
+  color: #333;
+}
+
+.listRDetail .listRDetailTitle a:hover {
+  color: #6fcef4;
+}
+
+.listRDetail .listRDetailProducer {
+  font-size: 13px;
+  color: #333;
+}
+
+.listRDetail .text {
+  width: 637px;
+  height: 40px;
+  color: #999;
+  margin: 5px 13px 6px 0;
+  height: 40px;
+  font-size: 13px;
+  line-height: 22px;
+  /* 超出隐藏为省略号 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+}
+
+.listRDetail .btn {
+  width: 650px;
+  height: 28px;
+  margin-top: 8px;
+}
+
+.btn .playAll {
+  display: inline-block;
+  width: 105px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  background: #169af3;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 14px;
+}
+
+.btn .share {
+  display: inline-block;
+  width: 91px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  background: #169af3;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.playAll .iconfont {
+  font-size: 9px;
+}
+
+.share .iconfenxiang {
+  font-size: 14px;
+  margin-right: 3px;
+}
