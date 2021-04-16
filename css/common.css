@@ -3,7 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+.w {
+  width: 1000px;
+  margin: 0 auto;
+}
+.notallowUserCopy {
+  user-select: none;
+}
 ul {
   list-style: none;
 }

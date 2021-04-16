@@ -1,11 +1,5 @@
-.w {
-  width: 1000px;
-  margin: 0 auto;
-  background-color: pink;
-}
-
 .container {
-  height: 5740px;
+  height: 2656px;
 }
 
 .listL .current {
@@ -41,8 +35,8 @@
 }
 
 .listR {
-  width: 650px;
-  height: 106px;
+  width: 790px;
+  height: 100%;
   padding: 0 0 0 20px;
 }
 
@@ -58,12 +52,12 @@
   height: 123px;
   margin: 0 5px 0 0;
   padding: 4px 0 0 4px;
+  background: url(../uploads/other.png) no-repeat -119px -407px;
 }
 
 .listRPic img {
   width: 100px;
   height: 100px;
-  border: 1px solid #fff;
 }
 
 .listRDetail .top {
@@ -120,6 +114,10 @@
   margin-right: 14px;
 }
 
+.btn .playAll:hover {
+  background-color: #158fe1;
+}
+
 .btn .share {
   display: inline-block;
   width: 91px;
@@ -132,6 +130,10 @@
   font-size: 12px;
 }
 
+.btn .share:hover {
+  background-color: #158fe1;
+}
+
 .playAll .iconfont {
   font-size: 9px;
 }
@@ -139,4 +141,23 @@
 .share .iconfenxiang {
   font-size: 14px;
   margin-right: 3px;
+}
+
+.download {
+  width: 770px;
+  height: 120px;
+  line-height: 120px;
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+
+.download a {
+  display: inline-block;
+  width: 108px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #169af3;
+  color: #fff;
+  margin: 0 0 0 20px;
 }
